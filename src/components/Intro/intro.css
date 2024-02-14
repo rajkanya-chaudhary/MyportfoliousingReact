@@ -1,0 +1,65 @@
+#intro
+{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.dp
+{
+    position: absolute;
+    top: 7rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 60vh;
+    width: 60vh;
+   /* height: 40vh;
+    width: 40vh;*/
+    
+}
+
+.dp {
+    border-radius: 100%;
+}
+
+.introContent
+{
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    right: -0;
+    font-size: 2rem;
+    font-weight: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+.Hello
+{
+    font-size: 2.75rem;
+    font-weight: 100;
+
+}
+.introName
+{
+    color: chocolate;
+    font-size: 30px;
+}
+.introPara
+{
+    font-size: large;
+    font-weight: 100;
+}
+.btn
+{
+background: chocolate;
+margin: 1rem 0;
+padding: 0.75rem 2rem;
+border: none;
+border-radius: 2rem;
+
+
+}
